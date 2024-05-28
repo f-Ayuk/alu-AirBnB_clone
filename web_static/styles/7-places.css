@@ -1,32 +1,26 @@
-.places{
-    border: 0;
+.places {
     display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-}
-.places h1{
-    font-size: 30px;
-}
-.places_title{
-    padding-top: 30px;
-    margin-bottom: -25px;
-}
-.articles{
-    display: flex;
-    align-items: baseline;
     flex-wrap: wrap;
     justify-content: center;
-}
-.places article{
+    margin-bottom: 50px;
+  }
+  
+  .places h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-left: 15px;
+  }
+  
+  .places article {
     width: 390px;
-    margin: 20px;
     padding: 20px;
-    border: solid #FF5A5F 1px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
     border-radius: 4px;
-    text-align: center;
+  }
+  
+  .places article h2 {
     font-size: 30px;
-}
-article h2{
-    font-size: 30px;
-    margin-top: -2px;
-}
+    display: flex;
+    justify-content: center;
+  }
